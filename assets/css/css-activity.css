@@ -1,0 +1,40 @@
+table {
+  width: 800px;
+  margin: 0 auto;
+  border: 3px double #000;
+}
+
+th {
+  background: lightgreen;
+  padding: 10px;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #000;
+  text-align: center; 
+  font-weight: 700;
+}
+
+h1 {
+  text-align: center;
+  border: 1px solid #000;
+  margin: 0;
+  text-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  position: center;
+}
+
+/* 行の色分け */
+tr:nth-child(2) td {
+  background: coral;
+}
+tr:nth-child(3) td {
+  background: lightblue;
+}

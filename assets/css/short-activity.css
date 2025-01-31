@@ -1,0 +1,75 @@
+/* short-activity*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #e63946;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.player-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  background-color: white;
+}
+
+.player-table th {
+  background-color: #e63946;
+  color: white;
+  padding: 15px;
+  text-align: left;
+  font-size: 1.1em;
+}
+
+.player-table td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+}
+
+.player-table tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.player-table tr:hover {
+  background-color: #ffe5e9;
+  transition: background-color 0.3s ease;
+}
+
+.player-photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #e63946;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+  .container {
+      padding: 10px;
+  }
+  
+  .player-table {
+      font-size: 0.9em;
+  }
+  
+  .player-photo {
+      width: 50px;
+      height: 50px;
+  }
+}

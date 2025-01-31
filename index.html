@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee bean</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!--(1)Header Area -->
+        <div class="nav" id="nav">
+            <h1><a href="#">Coffee Bean</a></h1>
+            <ul>
+                <li><a href="#nav">Home</a></li>
+                <li><a href="#merch">Merchandise</a></li>
+                <li><a href="#discount">Discount</a></li>
+                <li><a href="#merch-sale">On sale</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+            </ul>
+        </div>
+
+        <!-- (2) Banner Area -->
+        <div class="banner" id="banner">
+            <div class="banner-text">
+                <h2>Uniquely <span>Fresh Taste</span></h2>
+                <p>Try our tasty coffee bean, produced with unique taste.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+
+        <!-- (3) Ads Area -->
+        <div class="ads" id="ads">
+            <div class="ads-item ads-item1">
+                <div class="ads-text">
+                    <h3>Seasonal Coffee Flavours</h3>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="ads-item ads-item2">
+                <div class="ads-text">
+                    <h3>Coffee Bundle Packages</h3>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- (4) Discount area ！ -->
+        <div class="discount" id="discount">
+            <div class="discount-wrap">
+                <div class="discount-text">
+                    <span>We brew them fresh daily</span>
+                    <h2>MEMBER'S DISCOUNTS UP TO 40%</h2>
+                    <a href="#" class="discount-btn">View Products</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--(5)Merchandise Area -->
+    <div class="merch" id="merch">
+        <div class="section-header">
+            <span>What Happens Here</span>
+            <h2>Merchandise SALE</h2>
+            <hr>
+        </div>
+        <div class="merch-gallery">
+            <!--  -->
+            <div class="merch-items">
+                <img src="assets/images/merch-img1.jpg" alt="Extra Course Coffee">
+                <h3>Arabica - Extra Course</h3>
+                <span>*****</span>
+                <p>$70.00</p>
+            </div>
+            <div class="merch-items">
+                <img src="assets/images/merch-img2.jpg" alt="Fine Grind Coffee">
+                <h3>Arabica - Fine Grind</h3>
+                <span>*****</span>
+                <p>$70.00</p>
+            </div>
+            <div class="merch-items">
+                <img src="assets/images/merch-img4.jpg" alt="French Vanilla">
+                <h3>French Vanilla</h3>
+                <span>*****</span>
+                <p>$80.00</p>
+            </div>
+            <div class="merch-items">
+                <img src="assets/images/merch-img5.jpg" alt="Deluxe Chocolate">
+                <h3>Deluxe Chocolate</h3>
+                <span>*****</span>
+                <p>$100.00</p>
+            </div>
+            <!-- -->
+<!-- (6)Advanced Ads Section -->
+<div class="advanced-ads">
+  <div class="ads-flex">
+      <div class="ads-item">
+          <img src="assets/images/ads-img3.jpg" alt="Coffee Bean Varieties">
+          <div class="ads-overlay">
+              <h2>COFFEE BEAN VARIETIES</h2>
+              <a href="#" class="read-more">READ MORE</a>
+          </div>
+      </div>
+      <div class="ads-item">
+          <img src="assets/images/ads-img4.jpg" alt="Our Barista's Favorite">
+          <div class="ads-overlay">
+              <h2>OUR BARISTA'S FAVORITE</h2>
+              <a href="#" class="read-more">READ MORE</a>
+          </div>
+      </div>
+      <div class="ads-item">
+          <img src="assets/images/ads-img5.jpg" alt="Coffee Best Sellers">
+          <div class="ads-overlay">
+              <h2>THE COFFEE - BEST SELLERS</h2>
+              <a href="#" class="read-more">READ MORE</a>
+          </div>
+      </div>
+      <div class="ads-item">
+          <img src="assets/images/ads-img6.jpg" alt="More Than Coffee">
+          <div class="ads-overlay">
+              <h2>MORE THAN JUST THE COFFEE</h2>
+              <a href="#" class="read-more">READ MORE</a>
+          </div>
+      </div>
+  </div>
+</div>          
+<!-- (6)Reservation Form -->
+<div class="reservation-wrapper" id="reservation"> 
+  <div class="section-header">
+    <h2>RESERVATION FORM</h2>
+    <hr>
+  </div>
+  <form class="reservation-form"  action="#" method="post">
+    <div class="reservation-group">
+      <!-- 左側フォーム -->
+      <input type="text" placeholder="Full Name">
+      <input type="email" placeholder="Email Address">
+      <input type="tel" placeholder="Phone Number">
+      
+      <h3>Reservation Details</h3>
+      <select>
+        <option value="1">1 Guest</option>
+        <option value="2">2 Guests</option>
+        <option value="3">3 Guests</option>
+        <option value="4">4 Guests</option>
+      </select>
+      
+      <input type="date">
+      
+      <div class="res-time">
+        <input type="radio" name="time" id="morning">
+        <label for="morning">Morning</label>
+        
+        <input type="radio" name="time" id="afternoon">
+        <label for="afternoon">Afternoon</label>
+        
+        <input type="radio" name="time" id="night">
+        <label for="night">Night</label>
+      </div>
+    </div>
+
+    <div class="reservation-group">
+      <!-- 右側フォーム -->
+      <textarea placeholder="Additional Request"></textarea>
+      
+      <div class="res-payment">
+        <h3>Payment</h3>
+        <img src="assets/images/reservation-cards.png" alt="Payment Accepted Cards">
+        <input type="text" placeholder="Full Name">
+        <input type="number" placeholder="Credit Card Number">
+      </div>
+
+      <div class="res-agreement">
+        <label>
+          <input type="checkbox" required>
+          I agree to the terms and conditions
+        </label>
+        <button type="submit">SEND</button>
+      </div>
+    </div>
+  </form>
+</div>
+<!-- (7)Footer Section -->
+<div class="footer">
+  <div class="footer-contents">
+    <div class="footer-widget">
+      <h3>OPENING HOURS</h3>
+      <table>
+        <tr><td>Monday</td><td>9:00-22:00</td></tr>
+        <tr><td>Tuesday</td><td>9:00-22:00</td></tr>
+        <tr><td>Wednesday</td><td>9:00-22:00</td></tr>
+        <tr><td>Thursday</td><td>9:00-22:00</td></tr>
+        <tr><td>Friday</td><td>9:00-23:00</td></tr>
+        <tr><td>Saturday</td><td>9:00-23:00</td></tr>
+        <tr><td>Sunday</td><td>Closed</td></tr>
+      </table>
+
+    </div>
+
+    
+    <div class="footer-widget">
+      <h3>LATEST POST</h3>
+      <ul>
+        <li>
+          <span class="date">2024/01/25</span>
+          <p>New single origin coffee now in stock! #BeanLife</p>
+        </li>
+        <li>
+          <span class="date">2024/01/20</span>
+          <p>We've launched a subscription service for our recommended coffee beans, delivered directly from sustainable farms!</p>
+        </li>
+        <li>
+          <span class="date">2024/01/15</span>
+          <p>Our staff won the 2024 Barista Contest!</p>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="footer-widget">
+      <h3>CONTACT US</h3>
+      <ul>
+        <li>📍 123 Coffee Street, Bean City</li>
+        <li>📱 +1 234 567 8900</li>
+        <li>📧 info@coffeebean.com</li>
+        <li>🕒 Mon-Sat: 9:00-22:00</li>
+        <li>
+          <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">TikTok</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="footer-widget">
+      <h3>OTHER LOCATIONS</h3>
+      <ul>
+        <li>☕ Downtown - Bean District</li>
+        <li>☕ Westside Coffee Hub</li>
+        <li>☕ Airport Terminal 2</li>
+        <li>☕ Central Station</li>
+        <li>Coming Soon: East Side!</li>
+      </ul>
+      <div class="footer-form">
+        <h3>THE COFFEE EXPERIENCE</h3>
+        <form action="#" method="post">
+          <input type="email" placeholder="Enter email...">
+          <button type="submit">></button>
+        </form>
+        <div class="social-icons">○ ○ ○</div>
+      </div>
+    </div>
+</body>
+</html>
